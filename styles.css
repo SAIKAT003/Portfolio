@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+position: relative;
+background-color: #000000;
+color: #fff;
+text-align: center;
+margin: 10px;
+padding: 10px;
+border: 1px solid #030303;
+border-radius: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #000000;
+  }
+#about, #skills, #projects, #resume, #contact {
+    margin: 10px;
+    padding: 10px;
+    background-color: #000000;
+    border: 5px solid #494949;
+    border-radius: 2px;
+    color: #fff;
+    text-align: left;
+}
+
+#projects .project {
+    margin: 20px 0;
+    border: 1px solid #5f5f5f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
